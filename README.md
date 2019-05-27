@@ -44,7 +44,7 @@ In the Driver Manager pane, click the “Create a new driver” icon > Now click
 
 ###  Import certificates into DbVisualizer JVM truststore
 Check the Java Home of DbVisualizer. Select Tools > Driver Manager at top.
-![Java Home](/pics/jdbc-client/java_home.png)
+![Java Home](/pics/jdbc-client/java-home.png)
 Then add certificates into the truststore with keytool
 
 Launch the Command Prompt with administrator privileges. Browse to DbVisualizer/jre/bin folder and run keytool to import the needed certificates into the DbVisualizer truststore :
@@ -57,6 +57,9 @@ Default password for the truststore is : changeit
 
 ###  Create a new hive-hadoop connection using the new driver
 Open DBVisualizer and Select Tools > Connection Wizard at top.
-Enter the connection alias for the new database connection
-example: > hadoop-prd-hidw
+Enter the connection alias for the new database connection and select the recently created driver
+Choose Database URL from Settings Format and the Database URL and your Database Userid
+
+
+
 
