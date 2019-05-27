@@ -40,4 +40,22 @@ After collecting the right jars go to DBVizualizer.
 Open DBVisualizer and Select Tools > Driver Manager at top.
 In the Driver Manager pane, click the “Create a new driver” icon > Now click the folder icon on the right side and navigate to the folder where you placed the .jar files. Select all the files at once and click OK.
 
-![GitHub Logo](/pics/jdbc-client/driver-manager.png)
+![Driver Manager](/pics/jdbc-client/driver-manager.png)
+
+###  Import certificates into DbVisualizer JVM truststore
+Check the Java Home of DbVisualizer. Select Tools > Driver Manager at top. 
+Then add certificates into the truststore with keytool
+
+Windows:
+
+Launch the Command Prompt with administrator privileges. Browse to DbVisualizer/jre/bin folder and run keytool to import the needed certificates into the DbVisualizer truststore :
+```
+cd C:\Program Files\DbVisualizer\jre\bin
+keytool.exe -import -alias UNICRE-CA -file "C:\Tools\certs\UNICRE-CA.cer -keystore "C:\Program Files\DbVisualizer\jre\lib\security\cacerts"
+keytool.exe -import -alias UNICRE-SubCA -file "C:\Tools\certs\UNICRE-SubCA.cer -keystore "C:\Program Files\DbVisualizer\jre\lib\security\cacerts"
+```
+Default password for the truststore is : changeit
+
+###  Create a new hive-hadoop connection using the new driver
+
+
