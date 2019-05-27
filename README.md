@@ -40,4 +40,4 @@ After collecting the right jars go to DBVizualizer.
 Open DBVisualizer and Select Tools > Driver Manager at top.
 In the Driver Manager pane, click the “Create a new driver” icon > Now click the folder icon on the right side and navigate to the folder where you placed the .jar files. Select all the files at once and click OK.
 
-[](master/pics/jdbc-client/driver-manager.PNG)
+![GitHub Logo](/pics/jdbc-client/driver-manager.png)
