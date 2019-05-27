@@ -60,7 +60,8 @@ Default password for the truststore is : changeit
 Open DBVisualizer and Select Tools > Connection Wizard at top.
 Enter the connection alias for the new database connection and select the recently created driver
 Choose Database URL from Settings Format and the Database URL and your Database Userid
-Also make sure to follow the screenshot bellow
+Also make sure to follow the screenshot bellow:
+![Additional properties](/pics/jdbc-client/optional-properties.png)
 
 ENJOY DbVizualizer for Hive just like you enjoy SQL Developer for Oracle!
 
