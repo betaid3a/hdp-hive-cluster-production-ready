@@ -45,6 +45,7 @@ In the Driver Manager pane, click the “Create a new driver” icon > Now click
 ###  Import certificates into DbVisualizer JVM truststore
 Check the Java Home of DbVisualizer. Select Tools > Driver Manager at top.
 ![Java Home](/pics/jdbc-client/java-home.png)
+
 Then add certificates into the truststore with keytool
 
 Launch the Command Prompt with administrator privileges. Browse to DbVisualizer/jre/bin folder and run keytool to import the needed certificates into the DbVisualizer truststore :
