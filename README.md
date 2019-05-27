@@ -5,7 +5,7 @@ A curated list of tips about Hortonworks Data Platform (HDP) 2.6.5 for productio
 # Content
 Choose the one you are interested in and jump directly to the right area. 
 
-- How to setup a JDBC SQL client tool, like DbVisualizer, to access HDP Hive with zookeeper and SSL enabled
+- [How to setup a JDBC SQL client tool, like DbVisualizer, to access HDP Hive with zookeeper and SSL enabled](#how-to-setup-a-jdbc-sql-client-tool-like-dbvisualizer-to-access-hdp-hive-with-zookeeper-and-ssl-enabled)
 
 ___
 
