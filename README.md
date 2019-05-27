@@ -33,4 +33,11 @@ locate *hadoop-auth.jar
 locate *hadoop-common.jar
 locate *hive-jdbc*-standalone.jar
 ```
-There will be 2 diferent versions for the hive-jdbc-standalone jar, copy the one that matches your hive version
+There will be 2 diferent versions for the hive-jdbc-standalone jar, copy the one that matches your hive version.
+After collecting the right jars go to DBVizualizer.
+
+###  Create a new custom Driver in DBVisualizer
+Open DBVisualizer and Select Tools > Driver Manager at top.
+In the Driver Manager pane, click the “Create a new driver” icon > Now click the folder icon on the right side and navigate to the folder where you placed the .jar files. Select all the files at once and click OK.
+
+![](https://raw.githubusercontent.com/cyanfr/dbvis_to_hortonworks_hiveserver2/master/pics/pic02.png)
